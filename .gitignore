@@ -46,6 +46,7 @@
 ################################################
 
 config/local.js
+config/routes.js
 
 
 ################################################
@@ -133,4 +134,4 @@ lib-cov
 *.pid
 
 docs/swagger.json
-api/services
+api
