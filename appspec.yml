@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/app
+hooks:
+  BeforeInstall:
+    - location: codedeploy/before-install.sh
+      runas: root
+  AfterInstall:
+    - location: codedeploy/after-install.sh
+      runas: root

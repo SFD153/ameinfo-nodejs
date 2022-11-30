@@ -1,0 +1,72 @@
+{
+  "name": "ameinfo-api",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "@benamto/sails-hook-pagify": "^1.0.8",
+    "@sailshq/lodash": "^3.10.3",
+    "async": "2.0.1",
+    "aws-sdk": "^2.437.0",
+    "bcrypt": "^3.0.2",
+    "bluebird": "^3.5.3",
+    "bson-objectid": "^1.2.5",
+    "eslint": "^5.9.0",
+    "express": "^4.16.4",
+    "flaverr": "^1.9.2",
+    "joi": "^14.3.0",
+    "jsdom": "^13.1.0",
+    "jsonfile": "^5.0.0",
+    "jsonwebtoken": "^8.4.0",
+    "knex": "^0.16.3",
+    "mathjs": "^5.4.0",
+    "moment": "^2.23.0",
+    "nested-pop": "^0.1.4",
+    "openweather-apis": "^3.3.5",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "php-unserialize": "^0.0.1",
+    "promise-mysql": "^3.3.1",
+    "rss": "^1.2.2",
+    "sails": "^1.0.2",
+    "sails-hook-orm": "^2.0.0-16",
+    "sails-hook-sockets": "^1.4.0",
+    "sails-mongo": "anterodev/sails-mongo",
+    "sails-redis": "^1.0.0",
+    "sails-service-mailer": "^3.2.1",
+    "serve-static": "^1.13.2",
+    "sitemap2": "^1.0.1",
+    "skipper-s3": "^0.5.11",
+    "slug": "^1.0.0",
+    "superagent": "^4.1.0",
+    "uniqid": "^5.0.3",
+    "url-parse": "^1.4.4",
+    "uuid": "^3.3.2",
+    "valid-objectid": "^0.0.2",
+    "wordpress-hash-node": "^1.0.0"
+  },
+  "devDependencies": {
+    "@sailshq/eslint": "^4.19.3",
+    "nodemon": "^1.18.6"
+  },
+  "scripts": {
+    "start": "NODE_ENV=production node app.js",
+    "dev": "./node_modules/.bin/nodemon app.js",
+    "debug": "./node_modules/.bin/nodemon --inspect app.js",
+    "test": "npm run lint && npm run custom-tests && echo 'Done.'",
+    "lint": "eslint . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
+    "custom-tests": "echo \"(No other custom tests yet.)\" && echo"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chien/ameinfo-api.git"
+  },
+  "author": "chien",
+  "license": "",
+  "engines": {
+    "node": ">=9.11"
+  }
+}

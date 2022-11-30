@@ -1,0 +1,22 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "description": "A serverless architecture",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "aws-sdk": "^2.409.0",
+    "got": "^9.6.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "mongodb": "^3.1.13",
+    "sitemap": "^2.1.0",
+    "sitemap2": "^1.0.1"
+  }
+}
