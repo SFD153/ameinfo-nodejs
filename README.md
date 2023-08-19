@@ -7,7 +7,6 @@ Welcome to the AMEInfo Backend API in Node.js repository! This repository contai
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [API Endpoints](#api-endpoints)
 - [Contributing](#contributing)
 
 ## Getting Started
